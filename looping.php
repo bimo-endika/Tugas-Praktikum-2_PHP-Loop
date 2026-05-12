@@ -65,7 +65,8 @@ echo "<br>";
 <?php
 //looping for
 for($hitung =0; $hitung <10; $hitung--){
-    if ($hitung == -101) break;
+    if ($hitung == -101) break; //BERIKAN BREAK UNTUK MENGHENTIKAN 
+    // PERULANGAN JIKA SUDAH MENCAPAI -100
     echo "Perhitungan ke:" . $hitung . "<br>";
 }
 
