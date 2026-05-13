@@ -1,13 +1,18 @@
 <center>
+<?php
+do {
+    //code yang akan dijalankan
+} while (Condition);
+?>
+
 <h1>While Loop</h1>
 <?php
 //while loop
-$jumlah_barang = 1;
-while ($jumlah_barang < 6) {
-    echo "nomor saat ini: $jumlah_barang<br>";
-    $jumlah_barang++;
+$i = 1;
+while ($i < 6) {
+    echo "nomor saat ini: $i<br>";
+    $i++;
 }
-echo "<br>";
 ?>
 <h1>Break</h1>
 <?php
@@ -18,7 +23,6 @@ while ($i <= 10) {
     echo "Angka: $i<br>";
     $i++;
 }
-echo "<br>";
 ?>
 <h1>Continue</h1>
 <?php
@@ -58,9 +62,7 @@ do {
     echo "Angka: $angka<br>";
     $angka++;
 } while ($angka < 5);
-
 echo "<br>";
-
 ?>
 <?php
 //looping for
