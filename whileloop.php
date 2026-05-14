@@ -1,8 +1,8 @@
 <center>
 <?php
-do {
+/*do {
     //code yang akan dijalankan
-} while (Condition);
+} while (Condition);*/
 ?>
 
 <h1>While Loop</h1>
@@ -54,23 +54,6 @@ while ($i < 100) {
 
 echo '<br>';
 ?>
-<h1>Do While Loop</h1>
-<?php
-//dowhile
-$angka = 0;
-do {
-    echo "Angka: $angka<br>";
-    $angka++;
-} while ($angka < 5);
-echo "<br>";
-?>
-<?php
-//looping for
-for($hitung =0; $hitung <10; $hitung--){
-    if ($hitung == -101) break; //BERIKAN BREAK UNTUK MENGHENTIKAN 
-    // PERULANGAN JIKA SUDAH MENCAPAI -100
-    echo "Perhitungan ke:" . $hitung . "<br>";
-}
 
-?>
+
 </center>

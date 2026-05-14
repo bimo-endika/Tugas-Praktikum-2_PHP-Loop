@@ -1,3 +1,10 @@
+<center>
+<?php
+/*do {
+  // code yang akan dijalankan
+} while (condition);*/
+?>
+
 <h1>Do While Loop</h1>
 <?php
 //dowhile
@@ -32,3 +39,6 @@ do {
 } while ($i < 5);
 echo "<br>";
 ?>
+
+</center>
+
